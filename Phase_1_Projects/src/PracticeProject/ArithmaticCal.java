@@ -1,4 +1,4 @@
-package AssistedPracticeProject;
+package practiceProject;
 
 import java.util.Scanner;
 

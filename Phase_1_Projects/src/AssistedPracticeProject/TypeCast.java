@@ -1,4 +1,4 @@
-package PracticeProject;
+package assistedPracticeProject;
 
 public class TypeCast {
 
