@@ -72,7 +72,7 @@ public class File_Handling_create {
 	public static void main(String[] args) {
 
 
-			File file  = new File("E://Simplilearn_github//Phase_1_Projects//src//assistedPracticeProject//fileHandlingCreatefile.txt");
+			File file  = new File("E://Simplilearn_github//Phase_1_Projects//src//assistedPracticeProject//fileHandlingCreatefiles.txt");
 			
 			
 					
@@ -98,7 +98,7 @@ public class File_Handling_create {
 				
 				//boolean isfileDeleted =	file.delete();
 				
-				//Files.deleteIfExists(Paths.get("E://Simplilearn_github//Phase_1_Projects//src//assistedPracticeProject//fileHandlingCreatefile1.txt"));
+				//Files.deleteIfExists(Paths.get("E://Simplilearn_github//Phase_1_Projects//src//assistedPracticeProject//fileHandlingCreatefiles.txt"));
 				
 			
 				
