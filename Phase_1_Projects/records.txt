@@ -1,0 +1,3 @@
+10,ravi,18,karnataka
+20,chandra,20,Bangalore
+30,N,22,Kolar
