@@ -38,6 +38,8 @@ public class LoginFilter implements Filter {
 
 		// pass the request along the filter chain
 		
+		response.setContentType("text/html");
+		
 		PrintWriter out = response.getWriter();
 		String userid = request.getParameter("userid");
 		

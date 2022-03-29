@@ -29,8 +29,13 @@ public class AccountDashboard extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
+		String user = request.getParameter("userid");
+	
+		
 		PrintWriter out =response.getWriter();
-			out.write("I am in Account Dashboard after passing through LoginFilter");
+			out.write("<h1> I am in Account Dashboard after passing through LoginFilter\t</h1>");
+			
+			out.print("Welcome "+user);
 			
 	}
 
