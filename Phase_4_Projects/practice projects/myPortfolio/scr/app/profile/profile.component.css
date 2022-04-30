@@ -1,0 +1,11 @@
+.pro{
+    background-image: url('C:\Users\Admin\Angular\myPortfolio\src\app\profile\image\portfolio.jfif');
+    background-repeat: no-repeat;
+    background-size: 300px;
+   
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
