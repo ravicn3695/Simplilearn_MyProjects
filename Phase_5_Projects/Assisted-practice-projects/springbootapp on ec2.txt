@@ -1,0 +1,47 @@
+create Springboot App with DATA JPA
+-------------------------------------------
+
+create Instnce EC2 and connect using ssh
+
+(while creating instace in security group open 8081 and 8082 port open as per your reuirement of application)
+
+install JDK 
+
+>sudo apt-get update && sudo apt install default-jdk -y
+
+Install MYSQL
+
+>sudo apt update
+>sudo apt upgrade
+>sudo apt install mysql-server mysql-client -y
+>mysql --version
+
+for secure installation
+>sudo mysql_secure_installation
+
+select option according to your requirement and set root user password
+
+after that it will ask some question you can answer yes for all
+
+to chekc my sql service is running or not
+>sudo systemctl status mysql
+
+login to mysql
+>sudo mysql -u root -p
+
+create another user
+
+>CREATE USER 'sonam'@'localhost' IDENTIFIED BY 'Sonam@123';
+
+set privileges
+> GRANT ALL PRIVILEGES ON *.* TO 'sonam'@'localhost' WITH GRANT OPTION;
+
+you can use this name and password to work with your application.
+
+> upload your jar file to your instance and execute
+
+>java -jar jarfilename.jar
+
+check output 
+publicip:8082/api (apli link which you have mentioned in your controller)
+
